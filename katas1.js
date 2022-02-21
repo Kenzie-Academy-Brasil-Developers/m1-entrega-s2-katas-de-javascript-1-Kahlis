@@ -35,7 +35,7 @@ console.log(oddsToTwenty());
 //Retornar os múltiplos de 5 até 100. (5, 10, 15,…, 95, 100)
 function multiplesOfFive(){
     let result = [];
-    for(let i = 1; i <= 20; i++){
+    for(let i = 1; i <= 100; i++){
         if(i % 5 === 0){
             result.push(i);
         }
@@ -94,7 +94,7 @@ console.log(oddNumbersBackwards());
 //Retornar os múltiplos de 5 contando de trás para frente a partir de 100. (100, 95, 90, …, 10, 5)
 function multiplesOfFiveBackwards(){
     let result = [];
-    for(let i = 20; i > 0; i--){
+    for(let i = 100; i > 0; i--){
         if(i % 5 === 0){
             result.push(i);
         }
