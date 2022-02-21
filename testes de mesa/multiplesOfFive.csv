@@ -1,0 +1,6 @@
+result;i;i % 5 === 0;i <= 20;output;i++
+[];1;false;true;[];2
+[];2;false;true;[];3
+[];3;false;true;[];4
+[];4;false;true;[];5
+[5];5;true;true;[5];6
